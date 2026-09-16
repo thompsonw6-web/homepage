@@ -1,0 +1,65 @@
+img{
+    max-width: 100%;
+}
+body{
+    background-color: rgb(228, 225, 225);
+    font-family: monospace;
+}
+
+.banner {
+    font-size:40px;
+    font-family: sans-serif;
+    
+    background-color: cornflowerblue;
+    text-align: center;
+    border: 1px solid;
+    padding: 7px;
+    width: 90%;
+    margin: auto;
+}
+
+.shirtphoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+gap: 40px;
+margin: auto;
+}
+   
+
+.bottomcopy{
+    text-align: center;
+    font-size:12px;
+}
+
+.copy{
+    /* border:1.1px solid; */
+    padding:7px;
+}
+
+.cart{
+    display: block;
+    right: 50px;
+    font-size:20px;
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.question1{
+
+ background-image: url("assests/homescreenbackground.png");
+ background-size:cover;
+ text-align: center;
+position: fixed;
+top: 50%;
+left:50%;
+translate: -50% -50%;
+}
+
+.areusure{
+    background-color: rgb(228, 225, 225);
+    padding: 60px;
+}

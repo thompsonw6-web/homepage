@@ -1,0 +1,34 @@
+img{
+    max-width: 100%;
+}
+body{
+    background-color: rgb(252, 240, 224);
+}
+
+.shirtrow{
+    display:flex;
+    overflow-x: auto;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+position: fixed;   
+ left: 40px;
+ font-family: sans-serif;
+}
+
+.dropdown{
+    position: fixed;
+    left: 400px;
+    font-family: sans-serif;
+}
+
+.yesorno{
+     position: fixed;
+    right: 400px;
+        font-family: sans-serif;
+}
