@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: rgb(12, 105, 12);
+}
+
+.all{
+    padding-top: 621px;
+}
+
+.heading{
+display: flex;
+justify-content: right;
+/* padding-right: 250px; */
+}
+
+.word{
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    left: 65%;
+    top: 150px;
+}
+
+.triangle{
+    display: flex;
+    justify-content: center;
+gap: 49px;
+}
+
+.triangle:hover{
+    filter: brightness(70%);
+}
+
+.card{
+      border-radius: 2px;
+    border: 1.5px solid red;
+    background-color: white;
+    height: 110px;
+    width: 6px;
+}
+
+.left{
+    transform: rotate(26deg);
+}
+
+.right{
+    transform: rotate(-26deg);
+}
+
+.floor{
+    display: flex;
+    justify-content: center;
+}
+
+.floor:hover{
+    filter: brightness(70%);
+}
+
+.cardfloor{
+     border: 1.5px solid red;
+    background-color: white;
+    height: 6px;
+    width: 110px;
+          border-radius: 2px;
+}
+
+.triangle2-3{
+    display: flex;
+    justify-content: center;
+gap: 49px;
+}
+
+.triangle2-3:hover{
+    filter: brightness(70%);
+}
+
+.floor2{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.floor2:hover{
+    filter: brightness(70%);
+}
+
+.triangle4-5-6{
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+}
+
+.triangle4-5-6:hover{
+    filter: brightness(70%);
+}
+
+.floor3{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.floor3:hover{
+    filter: brightness(70%);
+}
+
+.triangle7-8-9-10{
+     display: flex;
+    justify-content: center;
+    gap: 49px;
+}
+
+.triangle7-8-9-10:hover{
+    filter: brightness(70%);
+}
+
+.tablemain{
+display: flex;
+justify-content: center;
+}
+
+.table{
+    background-color: rgb(165, 69, 42);
+    border: 1.5px solid black;
+    height: 22px;
+    width: 900px;
+    border-radius: 5px;
+}
+
+.legsmain{
+    display: flex;
+    justify-content: center;
+    gap: 750px;
+}
+
+.legs{
+    background-color: rgb(165, 69, 42);
+    border: 1.5px solid black;
+    height: 200px;
+    width: 22px;
+    border-radius: 5px;
+}

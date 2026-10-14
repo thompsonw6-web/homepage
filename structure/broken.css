@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: rgb(12, 105, 12);
+}
+
+.all{
+    padding-top: 200px;
+}
+
+.heading{
+/* padding-right: 250px; */
+}
+
+.word{
+    font-family: sans-serif;
+    color: white;
+     /* position: absolute; */
+    left: 65%;
+    top: 150px;
+}
+
+.triangle{
+    
+gap: 49px;
+}
+
+.card{
+      border-radius: 2px;
+    border: 1.5px solid red;
+    background-color: white;
+    height: 110px;
+    width: 6px;
+}
+
+.left{
+    transform: rotate(26deg);
+}
+
+.right{
+    transform: rotate(-26deg);
+}
+
+.floor{
+    
+}
+.cardfloor{
+     border: 1.5px solid red;
+    background-color: white;
+    height: 6px;
+    width: 110px;
+          border-radius: 2px;
+}
+
+.triangle2-3{
+    
+gap: 49px;
+}
+
+.floor2{
+    
+    gap: 5px;
+}
+
+.triangle4-5-6{
+    
+    gap: 49px;
+}
+
+.floor3{
+   
+    gap: 5px;
+}
+
+.triangle7-8-9-10{
+     
+    gap: 49px;
+}
+
+.tablemain{
+
+}
+
+.table{
+    background-color: rgb(165, 69, 42);
+    border: 1.5px solid black;
+    height: 22px;
+    width: 900px;
+    border-radius: 5px;
+}
+
+.legsmain{
+    
+    gap: 750px;
+}
+
+.legs{
+    background-color: rgb(165, 69, 42);
+    border: 1.5px solid black;
+    height: 200px;
+    width: 22px;
+    border-radius: 5px;
+}
+
+.startover{
+    font-family: sans-serif;
+    color: white;
+}
