@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+    transition: background 1s;
+}
+
+img{
+    max-width: 100%;
+}
+
+.responsive {
+    background-color: lightblue;
+    padding: 20px;
+    max-width: 700px;
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        background-color: lightgreen;
+    }
+
+    .responsive{
+    background-color: lightgoldenrodyellow;
+    padding: 50px;
+    border: 10px solid;
+}
+
+
+}
+ 
+@media screen and (min-width: 900px) {
+    body{
+        background-color: lightcoral;
+    }
+}
